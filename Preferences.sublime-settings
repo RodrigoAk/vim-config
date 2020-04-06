@@ -1,24 +1,28 @@
 {
-	"auto_complete": false,
-	"color_scheme": "Monokai Pro (Filter Machine).sublime-color-scheme",
-	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns":
+
+    "folder_exclude_patterns":
 	[
 		"__pycache__",
 		".vscode",
 		".git",
 		".idea"
 	],
-	"font_size": 12,
+
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+
 	"rulers":
 	[
 		72,
 		79
 	],
+
+	"auto_complete": false,
+	"color_scheme": "Monokai Pro (Filter Machine).sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 12,
 	"scroll_past_end": true,
 	"tab_size": 4,
 	"theme": "Monokai Pro (Filter Machine).sublime-theme",
