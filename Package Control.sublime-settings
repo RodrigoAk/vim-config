@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"AutoFileName",
 		"BracketHighlighter",
 		"Dracula Color Scheme",
 		"FileIcons",
