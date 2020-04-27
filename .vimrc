@@ -17,7 +17,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'dracula/vim', {'as': 'dracula'}
+Plugin 'sickill/vim-monokai',{'name':'monokai'}
+Plugin 'morhetz/gruvbox',{'name':'gruvbox'}
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 Plugin 'preservim/nerdtree'
@@ -38,8 +39,9 @@ set encoding=utf-8
 nmap <C-B> :NERDTreeToggle<CR>
 
 " Loading color scheme
-syntax on
-colorscheme dracula
+syntax enable
+set bg=dark
+colorscheme gruvbox
 
 " Set Relative Number
 set relativenumber
