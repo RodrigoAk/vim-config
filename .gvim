@@ -22,22 +22,17 @@ Plugin 'preservim/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'tpope/vim-commentary'
-Plugin 'Konfekt/FastFold'
+" Plugin 'Konfekt/FastFold'
 Plugin 'Yggdroot/indentline'
 Plugin 'lifepillar/vim-mucomplete'
 Plugin 'morhetz/gruvbox'
-Plugin 'jiangmiao/auto-pairs'
+Plugin 'delimitMate.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" For GVim
-set guifont=Consolas:h12:cANSI:qDRAFT
-set guioptions-=m "remove menu bar
-set guioptions-=T "remove toolbar
-set guioptions-=r "remove right-hand scroll bar
-set guioptions-=L "remove left-hand scroll bar
+set regexpengine=1
 
 " Set language encoding
 set encoding=utf-8
@@ -91,9 +86,3 @@ let g:SimpylFold_docstring_preview=1
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-au BufNewFile, BufRead *.py *.c
-    \ set softtabstop=4
-    \ set textwidth=79
-    \ set autoindent
-    \ set fileformat=unix
